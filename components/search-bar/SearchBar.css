@@ -1,0 +1,30 @@
+:host {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px;
+    margin: 5px;
+    border-radius: 20px;
+    background: #f6f6f6;
+}
+
+:host(:focus-within) {
+    background: #f1f1f1;
+}
+
+.input {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+    color: #333333;
+    width: 300px;
+}
+
+.input::placeholder,
+.icon {
+    color: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse;
+    font-family: "Roboto", sans-serif;
+    min-width: 400px;
+}
+
+thead tr {
+    background-color: #009578;
+    color: #fff;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 10px;
+    font-weight: normal;
+}
+
+tbody,
+tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
