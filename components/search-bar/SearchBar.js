@@ -9,7 +9,7 @@ export class Searchbar extends HTMLElement {
         const placeholder = this.dataset.placeholder || "Search";
 
         this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="/components/search-bar/SearchBar.css"/>
+        <link rel="stylesheet" href="./components/search-bar/SearchBar.css" type="text/css" />
         <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
         <input class="input" type="search" placeholder="${placeholder}" />
         `;

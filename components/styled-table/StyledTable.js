@@ -8,7 +8,7 @@ export class StyledTable extends HTMLElement {
         const headers = this.dataset.headers.split(",").map((header) => header.trim());
 
         this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="/components/styled-table/StyledTable.css"/>
+        <link rel="stylesheet" href="./components/styled-table/StyledTable.css"  type="text/css" />
         
         <table>
             <thead>
